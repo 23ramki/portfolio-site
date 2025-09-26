@@ -1,0 +1,40 @@
+# Jekyll Configuration for GitHub Pages Portfolio Site
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Site settings
+title: "Adithya Ramakrishnan - Portfolio"
+description: "Data Analyst & Business Intelligence Professional"
+author: "Adithya Ramakrishnan"
+email: "adithyaramakrishnan2309@gmail.com"
+location: "Dallas, TX"
+
+# GitHub Pages settings
+url: "https://23ramki.github.io"
+baseurl: "/portfolio-site"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalinks: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "#projects"
+  - title: "Resume"
+    url: "/assets/Adithya_Ramakrishnan_Resume.pdf"
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
